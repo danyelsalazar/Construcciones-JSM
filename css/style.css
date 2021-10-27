@@ -332,6 +332,7 @@ footer div h4{
     flex-wrap: wrap;
     gap: 50px;
     justify-content: center;
+    margin-bottom: 6%;
 }
 .container-servicios h1{
     padding: 20px;

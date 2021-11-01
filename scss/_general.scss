@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Raleway;
+    background-color: $color-uno;
+    background-size: cover;
+    overflow-x: hidden;
+    p{
+        line-height: 26px;
+    }
+    h1{
+        font-size: 30px;
+    }
+    h1, h2, h3, h4{
+        color: $color-titulos;
+    }
+    section, div, h2{
+        color:$color-h2;
+    }
+    main{
+        text-align: center;
+    }
+    a{
+        text-decoration: none;
+    }
+}

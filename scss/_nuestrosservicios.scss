@@ -1,0 +1,37 @@
+/*nuestros servicios*/ 
+.container-servicios{
+    h1{
+        padding: 20px;
+        margin-top: .5em;
+    }
+    .container-servicios-dos{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 50px;
+        justify-content: center;
+        margin-bottom: 6%;
+        div{
+            background: $backgrund-gradient-white;
+            width: 25vw;
+            height: 28vh;
+            border-radius: .5em;
+            box-shadow: 2px 2px 15px $color-a;
+            text-align: center;
+            padding-top: 10px;
+            transition: all 0.5s;
+            &:hover{
+                box-shadow: $box-shadow-somos;
+                transform: scale(1.1, 1.1); 
+            }
+            h3{
+                font-size: 20px;
+                font-weight: 600;
+            }
+            i{
+                font-size: 50px;
+                padding: 20px;
+            }
+        }
+    }
+}

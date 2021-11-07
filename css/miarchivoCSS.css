@@ -461,7 +461,8 @@ footer {
     .quienesSomos-container .quienesSomos-containerDos .mejorPrecio img {
       width: 140px; }
     .quienesSomos-container .quienesSomos-containerDos .manoDeObra img {
-      width: 160px; }
+      width: 185px;
+      margin-left: 18px; }
   /*nuestros servicios*/
   .container-servicios .container-servicios-dos {
     display: grid;

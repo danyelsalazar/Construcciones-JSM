@@ -51,6 +51,12 @@
     footer{
         display: grid;
         grid-template-rows: repeat(2, 1fr);
+        .ParteUno{
+            padding-bottom: 20px;
+        }
+        .ParteDos{
+            padding-bottom: 20px;
+        }
     }
      /*Quienes somos*/
      .quienesSomos-container{

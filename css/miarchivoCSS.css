@@ -442,6 +442,10 @@ footer {
   footer {
     display: grid;
     grid-template-rows: repeat(2, 1fr); }
+    footer .ParteUno {
+      padding-bottom: 20px; }
+    footer .ParteDos {
+      padding-bottom: 20px; }
   /*Quienes somos*/
   .quienesSomos-container .quienesSomos-containerDos {
     display: flex;
